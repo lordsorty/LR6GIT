@@ -4,10 +4,10 @@
 using namespace std;
 int main()
 {
-    int x;
+    int y;
     cout << "Input number of your month: ";
-    cin >> x;
-    switch (x)
+    cin >> y;
+    switch (y)
     {
     case 1: case 2: case 12: cout << "\n" "Winter" "\n"; break;
     case 3: case 4: case 5: cout << "\n" "Spring" "\n"; break;
