@@ -6,7 +6,7 @@ int main()
 {
     int y;
     cout << "Input number of your month: ";
-    cin >> y;
+    cin >> y; //ввести номер місяця
     switch (y)
     {
     case 1: case 2: case 12: cout << "\n" "Winter" "\n"; break; //якщо 1,2,12 вивести Winter
